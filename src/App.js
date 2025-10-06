@@ -1,3 +1,6 @@
+// Add this at the very top, above all other imports
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
